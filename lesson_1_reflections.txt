@@ -1,0 +1,36 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It pointed out the exact line where there was a difference between the 2 files.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    I could check for exact changes made in history and easily revert changes that have caused bugs/errors in the file.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros : I could commit only when the changes are big enough to be a 'logical change'. 
+    Cons: Sometimes I might forget to save a file and lose changes because of a shutdown/ I could have too many changes committed at once which would be difficult to go through in the history of the file.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git allows saving multiple files because a logical change done in a project might involve multiple files. Committing the change in only 1 file could break the system. Google docs 
+involves editing of single documents . Hence, each file is treated seperately.    
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log gives the list of all the commits done to a file along with the description of the changes done in each commit. git diff points out the exact changes done between 2 commits for a file
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    I could checkout my previous commits and find out in which commit the bug was introduced. This would make it easier to pin-point the commit where the bug was introduced and revert the changes if needed.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to try making changes in my project files and check for differences between different versions.
+    
