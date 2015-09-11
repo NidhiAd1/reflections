@@ -18,7 +18,8 @@ How do the diagrams help you visualize the branch structure?
 ANS: It's easier to visualize a codebase with multiple branches when it is represented graphically.
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
-ANS: To add all the changes that were introduced in the branch to the main branch, merging the branch is needed. For better visualization.
+ANS: To add all the changes that were introduced in the branch to the main branch, merging the branch is needed. 
+Represented in diagram for better visualization.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 Automatic merging 
@@ -26,5 +27,5 @@ PRO: Changes can be merged to the main codebase  as and when code is written.
 CON: Changes are merged when it does not make a logical sense.
 
 Merge Manually:
-PRO: Change can be merged only when the author of the code needs merging.
-CON: In case the author forgets to merge changes, it may be complicated to merge at a later stage.
+PRO: Change can be merged only when the author of the code needs merging of branches.
+CON: Manual merging is a tedious process.
