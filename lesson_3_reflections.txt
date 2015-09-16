@@ -11,3 +11,6 @@ Branches are different copies of the same codebase but each branch may be built 
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 ANS: If there are changes made to the local copy of the remote, it is beneficial to know from which point in the codebase changes were made. This helps while pushing the changes to the remote repository.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+ANS: Without Github, I would have to collaborate with another coder by manually checking for changes and merging changes. It would be easier to have a tool like Git which points out the exact changes in each file in different versions.
